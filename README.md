@@ -34,7 +34,7 @@ A modern and interactive web-based JSON schema builder that allows developers to
 ---
 
 ## 🔧 How to Run
-
+```
 1. Clone the repository
 git clone https://github.com/your-username/json-schema-builder.git
 cd json-schema-builder
@@ -44,6 +44,7 @@ npm install
 
  3. Start the development server
 npm start
+```
 
 ## 🏁 How to Use
 ```
