@@ -35,18 +35,18 @@ A modern and interactive web-based JSON schema builder that allows developers to
 
 ## 🔧 How to Run
 
-# 1. Clone the repository
+1. Clone the repository
 git clone https://github.com/your-username/json-schema-builder.git
 cd json-schema-builder
 
-# 2. Install dependencies
+ 2. Install dependencies
 npm install
 
-# 3. Start the development server
+ 3. Start the development server
 npm run dev
 Then open http://localhost:5173 in your browser.
 
-# 🏁 How to Use
+## 🏁 How to Use
 ```
 🔠 Enter a field name (e.g. full name)
 
@@ -68,7 +68,7 @@ Enum values (comma-separated)
 
 📥 Click Download to export the schema
 ```
-# 📚 Example Schema Output
+## 📚 Example Schema Output
 ```
 {
   "full name": {
@@ -129,8 +129,8 @@ Enum values (comma-separated)
   }
 }
 ```
-# 📩 Feedback & Contribution
+## 📩 Feedback & Contribution
 Have ideas to improve? Pull requests and suggestions are welcome! 😊
 
-# 📄 License
+## 📄 License
 MIT License © 2025 Panuku Sairam
