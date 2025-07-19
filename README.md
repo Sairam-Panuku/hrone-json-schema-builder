@@ -46,7 +46,8 @@ npm install
 npm run dev
 Then open http://localhost:5173 in your browser.
 
-🏁 How to Use
+# 🏁 How to Use
+```
 🔠 Enter a field name (e.g. full name)
 
 🧩 Choose a field type from the dropdown
@@ -66,8 +67,8 @@ Enum values (comma-separated)
 🧬 For nested objects, select Nested and define inner fields
 
 📥 Click Download to export the schema
-
-📚 Example Schema Output
+```
+# 📚 Example Schema Output
 
 {
   "full name": {
@@ -127,8 +128,9 @@ Enum values (comma-separated)
     ]
   }
 }
+```
 📩 Feedback & Contribution
 Have ideas to improve? Pull requests and suggestions are welcome! 😊
-
+```
 📄 License
 MIT License © 2025 Panuku Sairam

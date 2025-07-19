@@ -4,8 +4,6 @@
   background: linear-gradient(135deg, #e9f0ff, #f4fafe);
 }
 
-/* Header inside left panel */
-/* --- Header at top of page --- */
 .page-header {
   width: 100%;
   background: transparent;
@@ -17,7 +15,6 @@
   letter-spacing: 0.8px;
 }
 
-/* Section title under header */
 .section-label {
   font-size: 14px;
   font-weight: 500;
@@ -29,14 +26,12 @@
   margin: 8px 0 20px 0;
 }
 
-/* App layout */
 .app-container {
   display: flex;
   min-height: 100vh;
   background: linear-gradient(135deg, #e9f0ff, #f4fafe);
 }
 
-/* Left (builder) panel only */
 .builder-section {
   flex: 1;
   height: 100vh;
@@ -47,7 +42,6 @@
   border-right: 1px solid #ddd;
 }
 
-/* Right (preview) panel */
 .preview-section {
   flex: 1;
   height: 100vh;
@@ -57,14 +51,12 @@
   background-color: #f9fafb;
 }
 
-/* <- INDENTED LINE START BELOW THE LABEL ONLY -> */
 .builder-fields-wrapper {
   border-left: 2px solid #4f46e5;
   padding-left: 16px;
   margin-left: 10px;
 }
 
-/* Field card (each row) */
 .schema-card {
   margin-bottom: 14px;
   background: #ffffff;
@@ -74,7 +66,6 @@
   border-radius: 6px;
 }
 
-/* Nested block inside outer block */
 .nested-container {
   border-left: 2px dashed #4f46e5;
   margin-left: 16px;
@@ -83,7 +74,6 @@
   padding-bottom: 6px;
 }
 
-/* JSON Viewer */
 .json-preview {
   background-color: #ffffff;
   padding: 16px;
@@ -97,7 +87,6 @@
   margin-top: 20px;
 }
 
-/* Buttons */
 .add-button {
   background: #4f46e5 !important;
   color: #fff !important;
@@ -108,7 +97,6 @@
   border-radius: 6px;
 }
 
-/* Tabs header */
 .custom-tab-header {
   display: flex;
   align-items: center;

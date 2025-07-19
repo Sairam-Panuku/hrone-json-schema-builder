@@ -34,7 +34,6 @@ function buildSchema(fields) {
     const key = field.key || "---";
     const schema = {};
 
-    // Always include the type
     if (["string", "number", "boolean", "float", "objectid"].includes(field.type)) {
       schema.type = field.type;
     }
@@ -175,7 +174,6 @@ function FieldRow({
                 )}
               />
 
-              {/* Extra configs for Enum */}
               {currentType === "enum" && (
                 <Controller
                   name={`${fieldName}.enumValues`}
@@ -191,7 +189,6 @@ function FieldRow({
                 />
               )}
 
-              {/* Array item type */}
               {currentType === "array" && (
                 <Controller
                   name={`${fieldName}.arrayItemType`}
@@ -301,7 +298,6 @@ export default function App() {
       <div className="builder-section">
         <div className="section-label">🛠️ Input Section – Build Your Schema</div>
 
-        {/* 💡 VS LINE STARTS ONLY FOR FIELDS BELOW THIS */}
         <div className="builder-fields-wrapper">
           <FieldRow
             control={control}
