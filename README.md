@@ -3,6 +3,8 @@
 A modern and interactive web-based JSON schema builder that allows developers to visually create, preview, and export complex JSON schema structures with ease — including nested fields, arrays, enums, and more.
 
 ---
+## 🔗 Live Demo
+👉 [View App](https://hrone-json-schema-builder.vercel.app)
 
 ## 📷 Preview
 
