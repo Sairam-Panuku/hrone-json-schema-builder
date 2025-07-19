@@ -69,7 +69,7 @@ Enum values (comma-separated)
 📥 Click Download to export the schema
 ```
 # 📚 Example Schema Output
-
+```
 {
   "full name": {
     "type": "string",
@@ -129,8 +129,8 @@ Enum values (comma-separated)
   }
 }
 ```
-📩 Feedback & Contribution
+# 📩 Feedback & Contribution
 Have ideas to improve? Pull requests and suggestions are welcome! 😊
-```
-📄 License
+
+# 📄 License
 MIT License © 2025 Panuku Sairam
