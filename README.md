@@ -43,8 +43,7 @@ cd json-schema-builder
 npm install
 
  3. Start the development server
-npm run dev
-Then open http://localhost:5173 in your browser.
+npm start
 
 ## 🏁 How to Use
 ```
